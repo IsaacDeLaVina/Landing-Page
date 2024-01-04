@@ -1,0 +1,197 @@
+:root{
+    --Primary_Color: #1f2937;
+    --BrightBlue_Color: #3882f6;
+    --PrimaryTxt_Color: #f9faf8;
+    --Light_Gray: #e5e7eb;
+    --Placeholder_Color: #6D747D;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Sections that contain primary colors */
+footer,header, .Hero_Section{
+    background-color: var(--Primary_Color);
+    color: var(--PrimaryTxt_Color);
+}
+
+/* Hero Section */
+.Hero_Section{
+    padding-top: 2em; padding-bottom: 5em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.Hero_Content p{
+    width: 25em;
+}
+
+.Hero_Content h1{
+    width: 7.6em;
+}
+
+.Hero_Content button{
+    border: 1px;
+    margin-top: 0.5em;
+}
+
+
+
+
+
+/* Navigation bar & Header */
+header{
+    padding-top: 1em; padding-bottom: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h3{
+    margin: 0;
+}
+
+nav li{ 
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--PrimaryTxt_Color);
+}
+/* Quote Section */
+
+.Quote_Section{
+  background-color: var(--Light_Gray);
+  padding-top: 5em 0;
+  text-align: center;
+  padding-bottom: 3em;
+}
+
+.Quote_Content{
+    max-width: 18em;
+    margin: auto;
+    color: black;
+    font-style: italic;
+    text-align:left;
+    padding: 1em;
+    font-size: 2em;
+   
+}
+
+.Quoter{
+    font-size: 1.1em;
+    margin-top: 1em;
+    font-weight: bold;
+
+}
+/* Footer Section */
+footer{
+    text-align: center;
+    padding-top: 2em; padding-bottom: 2em;
+}
+
+/* Call to Action Section */
+
+.Call_to_Action{
+    padding-top: 5rem; padding-bottom: 5rem;
+    
+}
+
+.BlueBox_Section{
+    border: solid 3.5em var(--BrightBlue_Color);
+    background: var(--BrightBlue_Color);
+    /* PLACEHOLDER V */
+    width: fit-content;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 0.3em;
+}
+
+.BlueBox_Content{
+    display: flex;
+    justify-content:space-between;
+   
+}
+
+.BlueBox_Content h3{
+    color: var(--PrimaryTxt_Color);
+}
+
+.BlueBox_Content p{
+    color: var(--Light_Gray);
+}
+
+button, .BlueBox_Button{
+     border: solid 1.5px white;
+     border-radius: 5px;
+     font-weight: bold;
+     background-color: var(--BrightBlue_Color);
+     color: var(--PrimaryTxt_Color);
+     padding: 0.4em 1.5em;
+     text-decoration: none;
+     display: inline-block;
+     text-align: center;
+    
+}
+
+/* Some Random Information Section  */
+
+.RandomInfo_Section h1{
+    text-align: center;
+    padding-top: 1em; padding-bottom: 1em;
+
+}
+
+.RandomInfo_Section{
+    padding-top: 1em; padding-bottom: 8em;
+}
+
+.RandomInfo_Section .infoBox_Section{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.RandomInfo_Section .blue_Border{
+    border: var(--BrightBlue_Color) solid 0.3em;
+    border-radius: 5px;
+    width: 9em;
+    height: 9em;
+}
+
+.RandomInfo_Section p{
+    padding-top: 0.6em;
+    width: 9em;
+    text-align: center;
+}
+
+/* Image place holder */
+
+.Hero_Placeholder{
+    width: 25em;
+    height: 10em;
+    background: var(--Placeholder_Color);
+}
+
+.myimage p{
+    font-size: 1.2em;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    display: block;
+    padding: 50px;
+}
